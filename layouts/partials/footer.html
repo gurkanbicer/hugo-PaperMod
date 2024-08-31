@@ -14,9 +14,9 @@
         {{- print " · "}}
     {{- end }}
 <br>
-    {{- with site.Params.footer.text }}
+    {{- with site.Params.footer.subtext }}
         {{ . | markdownify }}
-    {{- end }}
+    {{- end }} 
 </footer>
 {{- end }}
 
